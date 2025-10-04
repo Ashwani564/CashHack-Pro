@@ -38,9 +38,9 @@ export default function Benefits() {
         transition={{ duration: 0.6 }}
       >
         <h2 className="section-title">
-          What Our <span className="gradient-text">Customers</span> Get
+          What We <span className="gradient-text">Provide</span> that others don't
         </h2>
-        <p className="section-subtitle">Real results from real people</p>
+        <p className="section-subtitle"></p>
       </motion.div>
 
       <div className="benefits-grid">
@@ -92,9 +92,9 @@ export default function Benefits() {
             animate={isInView ? { opacity: 1, scale: 1 } : {}}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            $2,450
+            $6 Billion
           </motion.h3>
-          <p>Avg. Cashback Earned/Year</p>
+          <p>The amount of unclaimed cashback acc. to CFPB</p>
         </div>
         <div className="stat">
           <motion.h3
@@ -104,7 +104,7 @@ export default function Benefits() {
           >
             15min
           </motion.h3>
-          <p>Time Saved Monthly</p>
+          <p>Time it takes to take control of your money</p>
         </div>
         <div className="stat">
           <motion.h3
@@ -112,9 +112,9 @@ export default function Benefits() {
             animate={isInView ? { opacity: 1, scale: 1 } : {}}
             transition={{ duration: 0.8, delay: 0.8 }}
           >
-            95%
+            70%
           </motion.h3>
-          <p>Customer Satisfaction</p>
+          <p>People have unused cash back rewards</p>
         </div>
       </motion.div>
     </section>

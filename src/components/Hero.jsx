@@ -61,14 +61,18 @@ export default function Hero() {
             With <span className="gradient-text">AI</span>
           </motion.h1>
 
-          <motion.p 
-            className="hero-subtitle"
+          <motion.div 
+            className="hero-subtitle-wrapper"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Smart finance tracking • AI-powered insights • Maximum cashback
-          </motion.p>
+            <p className="hero-tagline">Everything in <span className="highlight">ONE</span></p>
+            <p className="hero-features">
+              Smart finance tracking <span className="dot">•</span> AI-powered insights <span className="dot">•</span> Maximum cashback
+            </p>
+            <p className="hero-benefit">No need to get on multiple apps</p>
+          </motion.div>
 
           <motion.div 
             className="hero-cta"

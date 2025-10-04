@@ -5,19 +5,19 @@ const features = [
   {
     icon: '📊',
     title: 'Visualize Everything',
-    description: 'See all your accounts in one beautiful dashboard',
+    description: 'See all your accounts in one beautiful dashboard just by drag n drop statements',
     color: '#06b6d4'
   },
   {
     icon: '💳',
     title: 'Max Cashback',
-    description: 'Know which card to use for 5% back every time',
+    description: 'Know which card to use for maximum cashback every time',
     color: '#8b5cf6'
   },
   {
     icon: '🤖',
     title: 'AI Assistant',
-    description: 'Chat or talk to understand your spending habits',
+    description: 'Chat or talk to understand your spending habits and get personalized tips',
     color: '#ec4899'
   }
 ]

@@ -108,6 +108,47 @@ body {
   margin-bottom: 2rem;
 }
 
+/* === NEW HERO SUBTITLE STYLES === */
+.hero-subtitle-wrapper {
+  margin-bottom: 2.5rem;
+}
+
+.hero-tagline {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 1rem;
+  letter-spacing: 0.02em;
+}
+
+.hero-tagline .highlight {
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-purple) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
+  font-size: 1.6rem;
+}
+
+.hero-features {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.hero-features .dot {
+  color: var(--accent);
+  font-weight: 700;
+  margin: 0 0.5rem;
+}
+
+.hero-benefit {
+  font-size: 1rem;
+  color: #64748b;
+  font-style: italic;
+}
+
 .hero-cta {
   display: flex;
   gap: 1rem;
