@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { useSpring, animated } from '@react-spring/web'
 
-export default function Hero() {
+export default function Hero({ onButtonClick }) {
   const [springs, api] = useSpring(() => ({
     from: { y: -50, opacity: 0 },
     to: { y: 0, opacity: 1 },
@@ -82,6 +82,7 @@ export default function Hero() {
           >
             <motion.button 
               className="btn-primary"
+              onClick={onButtonClick}
               whileHover={{ scale: 1.05, boxShadow: "0 0 30px rgba(6, 182, 212, 0.5)" }}
               whileTap={{ scale: 0.95 }}
             >
@@ -89,6 +90,7 @@ export default function Hero() {
             </motion.button>
             <motion.button 
               className="btn-secondary"
+              onClick={onButtonClick}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >

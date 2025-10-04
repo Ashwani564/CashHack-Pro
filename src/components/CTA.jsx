@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 
-export default function CTA() {
+export default function CTA({ onButtonClick }) {
   return (
     <section className="cta-section">
       <motion.div 
@@ -25,11 +25,11 @@ export default function CTA() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          Join thousands making smarter money decisions
         </motion.p>
 
         <motion.button
           className="cta-button"
+          onClick={onButtonClick}
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -40,7 +40,7 @@ export default function CTA() {
           }}
           whileTap={{ scale: 0.95 }}
         >
-          <span>Launch App</span>
+          <span>Start Now</span>
           <motion.span 
             className="arrow"
             animate={{ x: [0, 5, 0] }}
